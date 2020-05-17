@@ -1,0 +1,22 @@
+1、	Person、Student、Employee、Faculty、Staff类。设计一个名为Person的类及其两个名为Student、Employee的子类，Employee类又有子类分别为教员类Faculty、职员类Staff。每个人都有姓名、地址、电话号码和电子邮件地址。学生有班级状态（大一、大二、大三、大四）。将这些状态定义为常量。一个雇员涉及办公室、工资和受聘日期。教员有办公时间和级别。职员有头衔。重写每个类中的toString方法，显示相应的类名和人名。编写一个测试程序，创建上述类，并调用它们的toString()方法。
+
+2、	编写以下方法，返回一个整数ArrayList的最大值。
+public static Integer max(ArrayList<Integer> list)
+编写一个测试程序，提示用户输入一个以0结尾的数值序列，调用该方法返回输入的最大数值。
+
+3、	编写以下方法，打乱一个整数ArrayList中的元素。
+public static void shuffle(ArrayList<Integer> list)
+
+4、	编写以下方法，对一个数值的ArrayList进行排序。
+public static void sort(ArrayList<Integer> list)
+
+5、	编写以下方法，返回ArrayList中所有数字的和。
+public static double sum(ArrayList<Double> list)
+
+6、	使用下面的方法头编写一个方法，从一个整数的数组列表中去掉重复元素。
+public static void removeDuplicate(ArrayList<Integer> list)
+编写测试程序，提示用户输入10个整数，以输入的顺序显示其中不同的整数，并以空格分隔的方式来进行显示。
+
+7、	使用下面的方法头编写一个方法，返回两个数组列表的合集。
+public static ArrayList<Integer> union(ArrayList<Integer> list1, ArrayList<Integer> list2)
+例如，两个数组列表{2，3，1，5}和{3，4，6}的并集{2，3，1，5，3，4，6}。编写测试程序，提示用户输入两个列表，每个列表有5个整数，然后显示它们的并集。输出中，以一个空格进行分隔。
